@@ -3,10 +3,8 @@
 
 - ⚡ **Experience:** 1 years and 1 months
 
-- <li>
-  <span style="vertical-align: middle;">
-    <img src="https://komarev.com/ghpvc/?username=ajay980p&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
-  </span>
+- <li style="display: flex; align-items: center;">
+  <img src="https://komarev.com/ghpvc/?username=ajay980p&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
 </li>
 
 
