@@ -5,7 +5,17 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=ajay980p" alt="ajay980p" /></a> </p>
 
-- 🔭 I’m currently working on **PM SuryaGhar Muft Bijli Yojana**
+- 🌱 I’m currently learning **Kafka, Kubernetes, Redis, GraphQL, AWS**
+
+- 👯 I’m looking to collaborate on **Startups or products needing scalable web apps, real-time features, or RESTful APIs.**
+
+- 💬 Ask me about **Developing full-stack applications using the MERN (MongoDB, Express, React, Node) stack.**
+
+- 📫 How to reach me **ajay980p@gmail.com**
+
+- 📄 Know about my experiences [https://drive.google.com/file/d/1--J-pOJx5CzQ3k80SXa38DJiqEdBNtTy/view?usp=drive_link](https://drive.google.com/file/d/1--J-pOJx5CzQ3k80SXa38DJiqEdBNtTy/view?usp=drive_link)
+
+- ⚡ Fun fact **Did you know that the "JavaScript" name was purely a marketing strategy? It was initially called "Mocha" and later renamed "LiveScript". But in 1995, Netscape changed it to JavaScript to ride on the popularity of Java, even though the two languages are completely different!**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
