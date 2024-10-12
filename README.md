@@ -3,7 +3,7 @@
 
 - ⚡ **Experience:** 1 years and 1 months
 
-- 📊 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ajay980p&label=Profile%20views&color=0e75b6&style=flat" alt="ajay980p" /> </p>
+- 📊 <span> <p align="left"> <img src="https://komarev.com/ghpvc/?username=ajay980p&label=Profile%20views&color=0e75b6&style=flat" alt="ajay980p" /> </p> </span>
 
 - 🌱 I’m currently learning **Kafka, Kubernetes, Redis, GraphQL, AWS**
 
