@@ -1,6 +1,8 @@
 <h1 align="center">Hi 👋, I'm Ajay Prajapati</h1>
 <h3 align="center">A passionate MERN Stack Developer from India</h3>
 
+- ⚡ **Experience:** <!-- EXPERIENCE_PLACEHOLDER -->
+
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ajay980p&label=Profile%20views&color=0e75b6&style=flat" alt="ajay980p" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=ajay980p" alt="ajay980p" /></a> </p>
