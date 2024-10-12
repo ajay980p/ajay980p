@@ -3,7 +3,7 @@
 
 - ⚡ **Experience:** 1 years and 1 months
 
-- <div align="center">
+- <div align="left" style="display: flex; align-items: center; justify-content: center; height: 50px;">
   <img src="https://komarev.com/ghpvc/?username=ajay980p&label=Profile%20views&color=0e75b6&style=flat" alt="ajay980p" />
 </div>
 
