@@ -20,6 +20,7 @@
 - ⚡ Fun fact **Did you know that the "JavaScript" name was purely a marketing strategy? It was initially called "Mocha" and later renamed "LiveScript". But in 1995, Netscape changed it to JavaScript to ride on the popularity of Java, even though the two languages are completely different!**
 
 <h3 align="left">Connect with me:</h3>
+
 <p align="left">
 <a href="https://twitter.com/ajay980p" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="ajay980p" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/ajay980p" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="ajay980p" height="30" width="40" /></a>
