@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Ajay Prajapati</h1>
 <h3 align="center">A passionate MERN Stack Developer from India</h3>
 
-- ⚡ **Experience:** 2 years and 2 months
+- ⚡ **Experience:** <!-- EXPERIENCE_PLACEHOLDER -->
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ajay980p&label=Profile%20views&color=0e75b6&style=flat" alt="ajay980p" /> </p>
 
