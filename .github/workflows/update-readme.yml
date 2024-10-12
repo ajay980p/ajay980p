@@ -36,25 +36,37 @@ jobs:
           cat << 'EOF' > update-experience.js
           const fs = require('fs');
 
+          // Start date of your experience
           const startDate = new Date('2023-09-01');
           const currentDate = new Date();
 
+          // Calculate the total months of experience
           let totalMonths = (currentDate.getFullYear() - startDate.getFullYear()) * 12;
           totalMonths += currentDate.getMonth() - startDate.getMonth();
 
+          // Adjust if the current day of the month is before the start day
           if (currentDate.getDate() < startDate.getDate()) {
             totalMonths--;
           }
 
+          // Calculate years and remaining months
           const years = Math.floor(totalMonths / 12);
           const months = totalMonths % 12;
 
+          // Format the experience text
           const experienceText = `${years} years and ${months} months`;
 
+          // Read the README.md file
           let readmeContent = fs.readFileSync('README.md', 'utf8');
-          readmeContent = readmeContent.replace(/<!-- EXPERIENCE_PLACEHOLDER -->/g, experienceText);
 
-          fs.writeFileSync('README.md', readmeContent);
+          // Replace the existing experience placeholder with the new calculated experience
+          const newContent = readmeContent.replace(
+            /- ⚡ \*\*Experience:\*\*.*$/m,
+            `- ⚡ **Experience:** ${experienceText}`
+          );
+
+          // Write the updated content back to README.md
+          fs.writeFileSync('README.md', newContent);
           EOF
 
       - name: Run update-experience.js
