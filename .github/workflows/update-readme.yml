@@ -5,12 +5,23 @@ on:
     - cron: "0 0 * * *" # Runs daily at midnight UTC
   workflow_dispatch: # Allows manual triggering
 
+permissions:
+  contents: write # Grant write permission to the contents
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
+        with:
+          persist-credentials: false # Important!
+
+      - name: Setup Git
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
@@ -46,10 +57,8 @@ jobs:
       - name: Run update-experience.js
         run: node update-experience.js
 
-      - name: Commit Changes
+      - name: Commit and Push Changes
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
           git add README.md
           git commit -m "Update experience duration in README [skip ci]" || exit 0
-          git push
+          git push origin HEAD:${{ github.ref }}
