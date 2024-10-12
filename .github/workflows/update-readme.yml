@@ -17,8 +17,9 @@ jobs:
         with:
           node-version: "14"
 
-      - name: Calculate and Update Experience
+      - name: Create update-experience.js script
         run: |
+          cat << 'EOF' > update-experience.js
           const fs = require('fs');
 
           const startDate = new Date('2022-08-01');  // Replace with your actual start date
@@ -34,12 +35,16 @@ jobs:
           const years = Math.floor(totalMonths / 12);
           const months = totalMonths % 12;
 
-          const experienceText = `${years} years and ${months} months`;
+          const experienceText = \`\${years} years and \${months} months\`;
 
           let readmeContent = fs.readFileSync('README.md', 'utf8');
           readmeContent = readmeContent.replace(/<!-- EXPERIENCE_PLACEHOLDER -->/g, experienceText);
 
           fs.writeFileSync('README.md', readmeContent);
+          EOF
+
+      - name: Run update-experience.js
+        run: node update-experience.js
 
       - name: Commit Changes
         run: |
