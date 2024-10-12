@@ -39,4 +39,4 @@
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ajay980p&" alt="ajay980p" /></p>
 
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=ajay980p" alt="ajay980p" /></a> </p>
+<p align="left"> <img src="https://github-profile-trophy.vercel.app/?username=ajay980p" alt="ajay980p" /> </p>
