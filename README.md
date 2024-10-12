@@ -1,4 +1,9 @@
-<h1 align="center">[![MasterHead](https://nimapinfotech.com/wp-content/uploads/2023/03/mern-stack-1.png)](https://www.linkedin.com/in/ajay980p/)</h1>
+<div align="center">
+  <a href="https://www.linkedin.com/in/ajay980p/">
+    <img src="https://nimapinfotech.com/wp-content/uploads/2023/03/mern-stack-1.png" alt="MasterHead">
+  </a>
+</div>
+
 
 <h1 align="center">Hi 👋, I'm Ajay Prajapati</h1>
 <h3 align="center">A passionate MERN Stack Developer from India</h3>
