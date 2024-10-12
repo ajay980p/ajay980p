@@ -2,11 +2,11 @@ name: Update README with Experience Duration
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Runs daily at midnight UTC
-  workflow_dispatch: # Allows manual triggering
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 
 permissions:
-  contents: write # Grant write permission to the contents
+  contents: write
 
 jobs:
   update-readme:
@@ -15,7 +15,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
         with:
-          persist-credentials: false # Important!
+          persist-credentials: false
 
       - name: Setup Git
         run: |
@@ -33,7 +33,7 @@ jobs:
           cat << 'EOF' > update-experience.js
           const fs = require('fs');
 
-          const startDate = new Date('2022-08-01');  // Replace with your actual start date
+          const startDate = new Date('2023-09-01');
           const currentDate = new Date();
 
           let totalMonths = (currentDate.getFullYear() - startDate.getFullYear()) * 12;
