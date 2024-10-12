@@ -13,7 +13,8 @@
 
 - 📫 How to reach me **ajay980p@gmail.com**
 
-- 📄 Know about my experiences <a href="https://drive.google.com/file/d/1--J-pOJx5CzQ3k80SXa38DJiqEdBNtTy/view?usp=drive_link" target="_blank">here</a>
+- 📄 Know about my experiences [Click here](https://drive.google.com/file/d/1--J-pOJx5CzQ3k80SXa38DJiqEdBNtTy/view?usp=drive_link) (right-click to open in a new tab)
+
 
 
 - ⚡ Fun fact **Did you know that the "JavaScript" name was purely a marketing strategy? It was initially called "Mocha" and later renamed "LiveScript". But in 1995, Netscape changed it to JavaScript to ride on the popularity of Java, even though the two languages are completely different!**
